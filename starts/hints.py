@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+    
 '''
 Each pixel is represented by a single 8-bit integer, which means that the values for 
 each pixel are in the 0-255 range.
@@ -24,5 +25,4 @@ returns rows, columns, and the number of channels (if there is more than one)
 
 img2 = np.zeros((3,3), dtype=np.uint8)
 print(img2.shape)
-
 print(img.shape)
